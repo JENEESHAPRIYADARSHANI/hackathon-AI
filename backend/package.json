@@ -1,0 +1,44 @@
+{
+  "name": "smart-service-platform-backend",
+  "version": "1.0.0",
+  "description": "AI-Powered Smart Service Request Platform",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "ai",
+    "service-request",
+    "genai",
+    "agentic"
+  ],
+  "author": "Hackothon Team",
+  "license": "MIT",
+  "dependencies": {
+    "@expo/vector-icons": "^15.1.1",
+    "@google/generative-ai": "^0.3.0",
+    "@react-native-async-storage/async-storage": "^3.0.2",
+    "@react-navigation/bottom-tabs": "^7.15.9",
+    "@react-navigation/native": "^7.2.2",
+    "@react-navigation/stack": "^7.8.9",
+    "axios": "^1.14.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-async-errors": "^3.1.1",
+    "express-ws": "^5.0.2",
+    "mongoose": "^8.0.0",
+    "nodemailer": "^6.9.7",
+    "react-native-safe-area-context": "^5.7.0",
+    "react-native-screens": "^4.24.0",
+    "uuid": "^9.0.1",
+    "winston": "^3.19.0",
+    "ws": "^8.14.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.2"
+  }
+}

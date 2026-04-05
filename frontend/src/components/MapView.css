@@ -1,0 +1,77 @@
+.map-view-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: white;
+}
+
+.map-header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.map-header h2 {
+  margin: 0;
+}
+
+.map-header p {
+  margin: 0.5rem 0 0 0;
+  opacity: 0.9;
+}
+
+.map-legend {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  padding: 1rem;
+  background: #f8f9fa;
+  flex-wrap: wrap;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.legend-color {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.map {
+  flex: 1;
+  border-radius: 0;
+}
+
+.popup-content {
+  width: 200px;
+}
+
+.popup-content h4 {
+  margin: 0 0 0.75rem 0;
+  color: #333;
+}
+
+.popup-content p {
+  margin: 0.25rem 0;
+  font-size: 0.85rem;
+  color: #666;
+}
+
+.map-info {
+  background: #f8f9fa;
+  padding: 1rem;
+  text-align: center;
+  border-top: 1px solid #e0e0e0;
+}
+
+.map-info h3 {
+  margin: 0;
+  color: #667eea;
+}

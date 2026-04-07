@@ -190,7 +190,7 @@ PUT    /api/notifications/:id/read - Mark as read
 
 ---
 
-## ⚡ Quick Start
+## Quick Start
 
 ### Prerequisites
 - Node.js (v16+)
@@ -449,7 +449,7 @@ All AI operations use carefully crafted prompts that:
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 This is a hackathon project. Team members can contribute by:
 1. Adding more AI features
@@ -460,13 +460,13 @@ This is a hackathon project. Team members can contribute by:
 
 ---
 
-## 📄 License
+## License
 
 MIT License - Open source for educational purposes
 
 ---
 
-## 👥 Team Information
+## Team Information
 
 **NSBM Hackathon 2026**
 - Project: AI-Powered Smart Service Platform
@@ -475,7 +475,7 @@ MIT License - Open source for educational purposes
 
 ---
 
-## 📞 Support
+## Support
 
 For issues or questions:
 1. Check the README files in backend/ and frontend/
@@ -484,4 +484,4 @@ For issues or questions:
 
 ---
 
-**Ready to run! 🚀**
+**Ready to run! **
